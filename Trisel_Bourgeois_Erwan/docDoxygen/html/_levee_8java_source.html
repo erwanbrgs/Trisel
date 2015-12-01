@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>Documentation Application Trisel:  Fichier source de Z:/workspaceMars/Trisel_Bourgeois_Erwan/src/com/metier/Levee.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Documentation Application Trisel
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('_levee_8java_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Levee.java</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_levee_8java.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">package </span>com.metier;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">import</span> java.util.Date;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html">    9</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="classcom_1_1metier_1_1_levee.html">Levee</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> idLevee;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">private</span> Date laDate;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">private</span> Double poids;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">private</span> String idPoubelle;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">//Constructeurs</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a37e2fcbd33d5433e488d70fe0271ffa3">   24</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#a37e2fcbd33d5433e488d70fe0271ffa3">Levee</a>(Date uneDate, Double unPoids, String unIdPoubelle)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        laDate = uneDate;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        poids = unPoids;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        idPoubelle = unIdPoubelle;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a7b38aab94375d47b1c2c00cb4cdc95aa">   39</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#a7b38aab94375d47b1c2c00cb4cdc95aa">Levee</a>(<span class="keywordtype">int</span> unIdLevee, Date uneDate, Double unPoids, String unIdPoubelle)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        idLevee = unIdLevee;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        laDate = uneDate;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        poids = unPoids;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        idPoubelle = unIdPoubelle;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//Getters and Setters</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#ab00b40d8d8274fd910bbc7a5e43595c9">   54</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#ab00b40d8d8274fd910bbc7a5e43595c9">getIdLevee</a>() {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> idLevee;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a7228640cb8cb9065584d0298e37ec1fc">   63</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#a7228640cb8cb9065584d0298e37ec1fc">setIdLevee</a>(<span class="keywordtype">int</span> idLevee) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        this.idLevee = idLevee;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    </div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a3e41447c35411503e1bba7de91de9e58">   72</a></span>&#160;    <span class="keyword">public</span> Date <a class="code" href="classcom_1_1metier_1_1_levee.html#a3e41447c35411503e1bba7de91de9e58">getDate</a>() {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> laDate;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a086bf446487f39f9ff0f19270efbed88">   80</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#a086bf446487f39f9ff0f19270efbed88">setDate</a>(Date laDate) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        this.laDate = laDate;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#a53538a8aa880943423e37e9d6572a102">   89</a></span>&#160;    <span class="keyword">public</span> Double <a class="code" href="classcom_1_1metier_1_1_levee.html#a53538a8aa880943423e37e9d6572a102">getPoids</a>() {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> poids;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    </div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#ac69e91854b2e07a0fb979a13060c0233">   98</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#ac69e91854b2e07a0fb979a13060c0233">setPoids</a>(Double poids) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        this.poids = poids;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    </div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#afe21fe6d95d478dbe1004a07e32855bd">  107</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classcom_1_1metier_1_1_levee.html#afe21fe6d95d478dbe1004a07e32855bd">getIdPoubelle</a>() {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> idPoubelle;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    </div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#aac1d1dbc1afbb38128055e5d5129cbee">  116</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classcom_1_1metier_1_1_levee.html#aac1d1dbc1afbb38128055e5d5129cbee">setIdPoubelle</a>(String idPoubelle) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        this.idPoubelle = idPoubelle;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">//ToString</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    @Override</div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="classcom_1_1metier_1_1_levee.html#aa61b0db52260baca6dabf83b705aeb77">  126</a></span>&#160;    <span class="keyword">public</span> String <a class="code" href="classcom_1_1metier_1_1_levee.html#aa61b0db52260baca6dabf83b705aeb77">toString</a>() {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Levee [idLevee=&quot;</span> + idLevee + <span class="stringliteral">&quot;, laDate=&quot;</span> + laDate + <span class="stringliteral">&quot;, poids=&quot;</span> + poids + <span class="stringliteral">&quot;, idPoubelle=&quot;</span> + idPoubelle</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                + <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    </div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    </div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_afe21fe6d95d478dbe1004a07e32855bd"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#afe21fe6d95d478dbe1004a07e32855bd">com.metier.Levee.getIdPoubelle</a></div><div class="ttdeci">String getIdPoubelle()</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00107">Levee.java:107</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_ac69e91854b2e07a0fb979a13060c0233"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#ac69e91854b2e07a0fb979a13060c0233">com.metier.Levee.setPoids</a></div><div class="ttdeci">void setPoids(Double poids)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00098">Levee.java:98</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html">com.metier.Levee</a></div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00009">Levee.java:9</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a53538a8aa880943423e37e9d6572a102"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a53538a8aa880943423e37e9d6572a102">com.metier.Levee.getPoids</a></div><div class="ttdeci">Double getPoids()</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00089">Levee.java:89</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a086bf446487f39f9ff0f19270efbed88"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a086bf446487f39f9ff0f19270efbed88">com.metier.Levee.setDate</a></div><div class="ttdeci">void setDate(Date laDate)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00080">Levee.java:80</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a7b38aab94375d47b1c2c00cb4cdc95aa"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a7b38aab94375d47b1c2c00cb4cdc95aa">com.metier.Levee.Levee</a></div><div class="ttdeci">Levee(int unIdLevee, Date uneDate, Double unPoids, String unIdPoubelle)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00039">Levee.java:39</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_ab00b40d8d8274fd910bbc7a5e43595c9"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#ab00b40d8d8274fd910bbc7a5e43595c9">com.metier.Levee.getIdLevee</a></div><div class="ttdeci">int getIdLevee()</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00054">Levee.java:54</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a7228640cb8cb9065584d0298e37ec1fc"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a7228640cb8cb9065584d0298e37ec1fc">com.metier.Levee.setIdLevee</a></div><div class="ttdeci">void setIdLevee(int idLevee)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00063">Levee.java:63</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a3e41447c35411503e1bba7de91de9e58"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a3e41447c35411503e1bba7de91de9e58">com.metier.Levee.getDate</a></div><div class="ttdeci">Date getDate()</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00072">Levee.java:72</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_a37e2fcbd33d5433e488d70fe0271ffa3"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#a37e2fcbd33d5433e488d70fe0271ffa3">com.metier.Levee.Levee</a></div><div class="ttdeci">Levee(Date uneDate, Double unPoids, String unIdPoubelle)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00024">Levee.java:24</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_aa61b0db52260baca6dabf83b705aeb77"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#aa61b0db52260baca6dabf83b705aeb77">com.metier.Levee.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00126">Levee.java:126</a></div></div>
+<div class="ttc" id="classcom_1_1metier_1_1_levee_html_aac1d1dbc1afbb38128055e5d5129cbee"><div class="ttname"><a href="classcom_1_1metier_1_1_levee.html#aac1d1dbc1afbb38128055e5d5129cbee">com.metier.Levee.setIdPoubelle</a></div><div class="ttdeci">void setIdPoubelle(String idPoubelle)</div><div class="ttdef"><b>Definition:</b> <a href="_levee_8java_source.html#l00116">Levee.java:116</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_0a31c64d9f1f2c74acde1e4feea70c37.html">Z:</a></li><li class="navelem"><a class="el" href="dir_7d95dc890f80c4466f290772cdcc53da.html">workspaceMars</a></li><li class="navelem"><a class="el" href="dir_86a89f112564f9881547d97ffc290477.html">Trisel_Bourgeois_Erwan</a></li><li class="navelem"><a class="el" href="dir_09fae024b232cd8d6443848a3bb754de.html">src</a></li><li class="navelem"><a class="el" href="dir_c64adb7fec9dcf64397873fb129e8abb.html">com</a></li><li class="navelem"><a class="el" href="dir_5cf6f1b3dac7cbadd94281225e5c2070.html">metier</a></li><li class="navelem"><a class="el" href="_levee_8java.html">Levee.java</a></li>
+    <li class="footer">Généré par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
+  </ul>
+</div>
+</body>
+</html>

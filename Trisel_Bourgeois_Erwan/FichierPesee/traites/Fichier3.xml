@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<Camion>
+    <Date>15/08/2015</Date>
+     <Levee>
+        <poubelle>pb1</poubelle>
+        <idHabitation>hab1</idHabitation>
+        <poids>5</poids>
+     </Levee>
+      <Levee>
+        <poubelle>pb1</poubelle>
+        <idHabitation>hab1</idHabitation>
+        <poids>15</poids>
+ </Levee>
+</Camion>
